@@ -1,0 +1,8 @@
+.next
+node_modules
+package.json
+package-lock.json
+
+src/pages/.DS_Store
+src/components/Bookings/activity-detail copy.jsx
+src/components/Bookings/contact-detail1.jsx
