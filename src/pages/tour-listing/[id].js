@@ -492,3 +492,16 @@ function TourismPage() {
 }
 
 export default TourismPage;
+export async function getServerSideProps(context) {
+  const { id } = context.params;
+
+  return {
+    props: {
+      id,
+    },
+  };
+}
+function TourismPage({ id }) {
+  // no need to use useRouter().query.id
+}
+
